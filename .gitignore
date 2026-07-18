@@ -1,0 +1,26 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local caches / huge HTML (regenerable via scraper)
+raw/**/html_cache/
+raw/**/samples/
+
+# Intermediate analysis cache
+figure/_cache/
+**/_cache/
+
+# Temp
+*.log
+*.tmp
+.ipynb_checkpoints/
